@@ -37,8 +37,47 @@
       display: inline-flex;
       font-size: inherit;
   }
-  .btn {
+  .result{
     display: block;
-    margin: auto;
-    margin-top: 1rem;
+    width: 100%;
+    padding: 30px 50px;
+    background-color: lightgray;
+  }
+  .country-name{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .info-content{
+    display: flex;
+    width: 100%;    
+  }
+  .info{
+    display: block;
+    width: calc(50% - 10px);
+    margin-right: 20px;
+    list-style: none;
+  }
+  .info__item__caption{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .info__item__list{
+    list-style-type: disc;
+  }
+  .info__item__text{
+    font-size: 30px;
+    font-weight: normal;  
+  }    
+  
+  .flag-container{
+    display: block;
+    width: calc(50% - 10px);
+  }
+  .country-flag{
+    display: block;
+    width: 100%;
+    outline: 1px solid gray;
   }
